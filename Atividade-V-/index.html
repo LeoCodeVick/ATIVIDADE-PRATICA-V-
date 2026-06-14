@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main.container {
+            max-width: 500px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100px;
+            margin-bottom: 1rem;
+        }
+
+        .grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <img src="img/Icone.png">
+        <headed>Site Social Ultra</headed>
+        <form action="feed.html">
+            <div class="grid">
+
+                <input type="email" name="email" placeholder="Email" autocomplete="email" required>
+
+                <input type="password" name="senha" placeholder="Digite sua senha" required>
+
+                <input type="submit" value="Entrar" />
+            </div>
+            <article>
+                <a href=""> Esqueceu a senha </a>
+            </article>
+            <article>
+                <a href="cadastro.html">Cadastrar</a>
+            </article>
+    </main>
+</body>
+
+</html>
